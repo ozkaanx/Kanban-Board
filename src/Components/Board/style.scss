@@ -1,0 +1,18 @@
+.board {
+  display: grid;
+  grid-template: 100% / repeat(4, 1fr);
+  justify-content: center;
+  gap: 8px;
+  margin-top: 50px;
+  &-list {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  @media screen and(max-width : 750px) {
+    display: grid;
+    grid-template: 50% / repeat(2, 1fr);
+    margin-top: 0;
+  }
+}

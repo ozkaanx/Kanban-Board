@@ -1,0 +1,12 @@
+.board-column {
+  padding: 10px 20px;
+  border-radius: 15px;
+  &-title {
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.2px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+  }
+}
